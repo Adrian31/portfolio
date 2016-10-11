@@ -9,11 +9,11 @@
 
 *{
   /*font-family: 'Lato', sans-serif;*/
-  font-family: 'Raleway', sans-serif;
-  color: #2C3539;
+  font-family: "Raleway", sans-serif;
+  color: #2c3539;
 }
 
-@media only print and (max-width: 500px){
+@media only print and (max-width: 500px) {
     p{
       display: none;
     }
@@ -85,15 +85,25 @@
     width: 100%;
 }
 
+
 .main-header{
-  font-size: 3vw;
+  font-size: 1.6vw;
+  text-align: right;
+}
+
+.header-border{
+  border-bottom: 2px solid #bcbbbb;
+}
+
+.image-margin{
+  margin-right: 33.34%;
 }
 
 .central-banner{
   width: 100%;
   margin-top: 20px;
   padding-bottom: 20px;
-  border-bottom: 2px solid #BCBBBB;
+  border-bottom: 2px solid #bcbbbb;
 }
 
 .fw-title{
